@@ -238,3 +238,55 @@
 1665512572983:add-point 7,6 --name rec2
 1665512582386:add-point 4,8 --name rec2
 1665512591310:add-point 7,8 --name rec2
+1665527236025:name-first-rectangle rec1
+1665527244995:name-second-rectangle rec2
+1665527257790:add-point 4,4 --name rec1
+1665527270628:add-point 4,7 --name rec1
+1665527282225:add-point 7,4 --name rec1
+1665527292065:add-poiont 7,7 --name rec1
+1665527305175:add-point 7,7 --name rec1
+1665527322485:add-point 5,1 --name rec2
+1665527332550:add-point 5,5 --name rec2
+1665527343499:add-point 6,1 --name rec2
+1665527354119:add-point 6,5 --name rec2
+1665527426394:name-first-rectanlge rec1
+1665527441167:name-first-rectangle rec1
+1665527449429:name-second-rectangle rec2
+1665527461117:add-point 4,4 --name rec1
+1665527472697:add-point 4,7 --name rec1
+1665527483272:add-point 7,4 --name rec1
+1665527492466:add-point 7,7 --name rec1
+1665527540902:add-point 5,1 --name rec2
+1665527550907:add-point 5,5 --name rec2
+1665527563176:add-point 6,1 --name rec2
+1665527574338:add-point 6,5 --name rec2
+1665528358625:name-first-rectangle rec1
+1665528366513:name-second-rectangle rec2
+1665528381435:add-point 4,4 --name rec1
+1665528391306:add-point 4,7 --name rec1
+1665528403966:add-point 7,4 --name rec1
+1665528411872:add-point 7,7 --name rec1
+1665528421442:add-point 5,1 --name rec2
+1665528430143:add-point 5,5 --name rec2
+1665528441033:add-point 6,1 --name rec2
+1665528449388:add-point 6,5 --name rec2
+1665528838537:name-first-rectangle rec1
+1665528846380:name-second-rectangle rec2
+1665528858155:add-point 4,4 --name rec1
+1665528867412:add-point 4,7 --name rec1
+1665528877641:add-point 7,4 --name rec1
+1665528885636:add-point 7,7 --name rec1
+1665528895191:add-point 5,1 --name rec2
+1665528904296:add-point 5,5 --name rec2
+1665528914361:add-point 6,1 --name rec2
+1665528924845:add-point 6,5 --name rec2
+1665529217276:name-first-rectangle rec1
+1665529225616:name-second-rectangle rec2
+1665529234810:add-point 4,4 --name rec1
+1665529244800:add-point 4,7 --name rec1
+1665529253756:add-point 7,4 --name rec1
+1665529264720:add-point 7,7 --name rec1
+1665529278896:add-point 5,1 --name rec2
+1665529289380:add-point 5,5 --name rec2
+1665529301560:add-point 6,1 --name rec2
+1665529309989:add-point 6,5 --name rec2

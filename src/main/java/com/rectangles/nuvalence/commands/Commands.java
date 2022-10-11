@@ -110,7 +110,7 @@ public class Commands {
         }
 
         if(xAdjacentCounter == 2 || yAdjacentCounter == 2)
-            adjacent = "Rectangle has Adjacent sides";
+            adjacent = "Rectangle has Adjacent sides.  ";
 
         return adjacent;
     }
@@ -157,6 +157,9 @@ public class Commands {
 
     static public String intersection(List<Integer[]> arrList1, List<Integer[]> arrList2){
         String intersection="";
+        boolean insidePoint = false;
+        boolean outsidePoint = false;
+
         List<Integer[]> arr1List1SmallestBiggest = smallestBiggest(arrList1);
         List<Integer[]> arr2List1SmallestBiggest = smallestBiggest(arrList2);
 
@@ -165,47 +168,44 @@ public class Commands {
         Integer[] arr1Largest= arr1List1SmallestBiggest.get(1);
         Integer[] arr2Largest = arr2List1SmallestBiggest.get(1);
 
-        int arr1Counter=0;
-        List<Integer[]> arr1IntersectionPoints = new ArrayList<>();
+        for(Integer[] arr1 : arrList1){
+            if((arr1[0] > arr2Smallest[0]) && (arr1[0] < arr2Largest[0])
+                && (arr1[1]> arr2Smallest[1]) && (arr1[1]<arr2Largest[1])){
+                    insidePoint = true;
+            }
 
-        for(Integer[] arr1: arrList1){
-            if((arr1[0] > arr2Smallest[0] && arr1[0] < arr2Largest[0]) &&
-                    (arr1[1] > arr2Smallest[1] && arr1[1] < arr2Largest[1]) ){
-                arr1IntersectionPoints.add(new Integer[]{arr1[0], arr1[1]});
-                arr1Counter++;
-                if(arr1Counter == 2){
-                    arr1IntersectionPoints.add(new Integer[]{arr1[0], arr1[1]});
-                }
+            if(((arr1[0] < arr2Smallest[0]) || (arr1[0] > arr2Largest[0]))
+                    || ((arr1[1] < arr2Smallest[1]) || (arr1[1] > arr2Largest[1]))){
+                    outsidePoint = true;
             }
 
         }
 
-        int arr2Counter=0;
-        List<Integer[]> arr2IntersectionPoints = new ArrayList<>();
+        if(insidePoint && outsidePoint){
+            return "Rectangle has an intersection.  ";
+        }
 
-        for(Integer[] arr2: arrList2) {
-            if ((arr2[0] > arr1Smallest[0] && arr2[0] < arr1Largest[0]) &&
-                    (arr2[1] > arr1Smallest[1] && arr2[1] < arr1Largest[1])) {
-                arr2IntersectionPoints.add(new Integer[]{arr2[0], arr2[1]});
-                arr2Counter++;
-                if (arr2Counter == 2) {
-                    arr2IntersectionPoints.add(new Integer[]{arr2[0], arr2[1]});
-                }
+        insidePoint = false;
+        outsidePoint = false;
+
+        for(Integer[] arr2 : arrList2){
+            if((arr2[0] > arr1Smallest[0]) && (arr2[0] < arr1Largest[0])
+                    && (arr2[1]> arr1Smallest[1]) && (arr2[1]<arr1Largest[1])){
+                insidePoint = true;
             }
-        }
 
-        if((arr1IntersectionPoints.size() == 2)){
-            intersection = "Intersection at " + arr1IntersectionPoints.get(0) + " and "
-                    + arr1IntersectionPoints.get(1);
-        } else if((arr2IntersectionPoints.size() == 2)){
-            intersection = "Intersection at " + arr2IntersectionPoints.get(0) + " and "
-                    + arr2IntersectionPoints.get(1);
+            if(((arr2[0] < arr1Smallest[0]) || (arr2[0] > arr1Largest[0]))
+                    || ((arr2[1] < arr1Smallest[1]) || (arr2[1] > arr1Largest[1]))){
+                outsidePoint = true;
+            }
 
         }
 
-        return intersection;
+        if(insidePoint && outsidePoint){
+            return "Rectangle has an intersection.  ";
+        }
 
-
+    return "";
 
     }
 
@@ -213,7 +213,7 @@ public class Commands {
 
     static public List<Integer[]> smallestBiggest(List<Integer[]> arrList){
         List<Integer[]> smallestBiggest = new ArrayList<>();
-        Integer[] temp = arrList.get(0);
+        Integer[] temp = arrList.get(0).clone();
         for(Integer[] arr : arrList){
             if ((arr[0] <= temp[0]) && (arr[1] <= temp[1])){
                 temp[0] = arr[0];
@@ -223,7 +223,7 @@ public class Commands {
         }
 
         smallestBiggest.add(temp);
-        Integer[] temp2 = arrList.get(1);
+        Integer[] temp2 = arrList.get(0).clone();
         for(Integer[] arr: arrList){
             if ((arr[0] >= temp2[0]) && (arr[1] >= temp2[1])){
                 temp2[0] = arr[0];
