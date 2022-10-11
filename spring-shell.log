@@ -1,0 +1,240 @@
+1665269221634:yo
+1665284963050:add 1 2
+1665284974102:add
+1665284992882:add 1
+1665284996438:add 1 2 3
+1665285170860:add 1 2
+1665285601728:add [1,1] [1,4] [4,4] [4,1]
+1665285697515:add 1 1, 2 2, 3 3, 4 4
+1665285707414:add 1 1 2 2 3 3 4 4
+1665416790058:printPrimitiveWrapper 5
+1665416844353:printprimitivewrapper 4
+1665416915814:print-primitive-wrapper 3
+1665438372032:run-test
+1665438395866:runt-test
+1665438605227:run-test
+1665462545451:help
+1665462669219:2 2 rect1
+1665462711547:add-poiont 2 2 --rect1
+1665462799991:add-point 2 2 --rectangleName rect1
+1665465099673:add-point 2 6 --rectangleName rect1
+1665465115137:add-point 6 2 --rectangleName rect1
+1665465127738:add-point 6 6 --rectangleName rect1
+1665465144702:add-point 3 3 --rectangleName rect2
+1665465158610:add-point 3 5 --rectangleName rect2
+1665465171493:add-point 5 3 --rectangleName rect2
+1665465184171:add-point 5 5 --rectangleName rect2
+1665465763824:name-first-rectangle rect1
+1665465772070:name-second-rectangle rect2
+1665465792367:add-point 2 2 --rectangleName rect1
+1665465806887:add-point 2 6 --rectangleName rect1
+1665465825263:add-point 6 2 --rectangleName rect1
+1665465838070:add-point 6 6 --rectangleName rect1
+1665465863348:add-point 3 3 --rectangleName rect2
+1665465880285:add-point 3 5 --rectangleName rect2
+1665465892371:add-point 5 3 --rectangleName rect2
+1665465903593:add-point 5 5 --rectangleName rect2
+1665466029326:name-first-rectangle rect1
+1665466068803:add-point 3 3 --rectangle rect2
+1665466133364:name-second-rectangle rect2
+1665466180946:add-point 2 2 --rectangleName rect1
+1665466259814:add-point 2 6 --rectangleName rect1
+1665466583848:run-test 1 1
+1665467144659:run-test 1 2
+1665502052094:run-test 3 4
+1665502177463:run-test 2 3
+1665502268364:run-test 3 4
+1665502733203:test 3
+1665502787218:test 3 4
+1665502795648:test 3,4
+1665503053341:name-first-rectangle rect1
+1665503068939:name-second-rectangle rect2
+1665503111194:add-point 2,2 rect1
+1665503218054:name-first-rectangle rect1
+1665503228087:name-second-rectangle rect2
+1665503237895:add-point 2,2 rect1
+1665503255826:add-point 2,2 --name rect1
+1665503271591:add-point 2,6 --name rect1
+1665503294420:add-point 6,2 --name rect1
+1665503308921:add-point 6,6 --name rect1
+1665503323200:add-point 3,3 --name rect2
+1665503336988:add-poiont 3,5 --name rect2
+1665503359202:add-point 3,5 --name rect2
+1665503373843:add-point 5,3 --name rect2
+1665503386158:add-point 5,5 --name rect2
+1665503481919:name-first-rectangle rect1
+1665503489448:name-second-rectangle rect2
+1665503502366:add-point 2,2 --name rect1
+1665503664620:add-point --name rect1
+1665503677041:add-point 2,2 --name rect1
+1665503835384:add-point 2,2--namerect1
+1665503903200:name-first-rectangle rect1
+1665503911178:name-second-rectangle rect2
+1665503926613:add-point 2,2 --namely rect1
+1665504076871:name-first-rectangle rec1
+1665504084475:name-second-rectangle rec2
+1665504093024:add-point 2,2 --name rec1
+1665504196136:name-first-rectangle rec1
+1665504204460:name-second-rectangle rec2
+1665504214120:add-point 2,2 --name rec1
+1665504428776:name-first-rectangle rec1
+1665504437981:name-second-rectangle rec2
+1665504448467:add-point 2,2 --name rec1
+1665504575220:name-first-rectangle rec1
+1665504582884:name-second-rectangle rec2
+1665504593039:add-point 2,2 --name rec1
+1665504641539:name-first-rectangle rec1
+1665504652080:name-second-rectangle rec2
+1665504666284:add-point 2,2 --name rec1
+1665504678373:add-point 2,6 --name rec1
+1665504691755:add-point 6,2 --name rec1
+1665504702913:add-point 6,6 --name rec1
+1665504713069:add-point 3,3 --name rec2
+1665504724528:add-point 3,5 --name rec2
+1665504737100:add-point 5,3 --name rec2
+1665504750659:add-point 5,5 --name rec2
+1665504796518:name-first-rectangle rec1
+1665504804061:name-second-rectangle rec2
+1665504845086:add-point 2,2 --name rec1
+1665504866729:add-point 2,6 --name rec1
+1665504893370:add-point 6,2 --name rec1
+1665504918633:add-point 6,6 --name rec1
+1665504935146:add-point 3,3 --name rec2
+1665504957676:add-point 3,5 --name rec2
+1665504975632:add-point 5,3 --name rec2
+1665504990255:add-point 5,5 --name rec2
+1665505148826:name-first-rectangle rec1
+1665505158994:name-second-rectangle rec2
+1665505168324:add-point 2,2 --name rec1
+1665505178072:add-point 2,6 --name rec1
+1665505192895:addpoint 6,2 --name rec1
+1665505206364:add-point 6,2 --name rec1
+1665505214764:add-point 6,6 --name rec1
+1665505225338:add-point 3,3 --name rec2
+1665505236424:add-point 3,5 --name rec2
+1665505246309:add-point 5,3 --name rec2
+1665505255128:add-point 5,5 --name rec2
+1665505649233:name-first-rectangle rec1
+1665505656777:name-second-rectangle rec2
+1665505667139:add-points 2,2 --name rec1
+1665505680444:add-point 2,2 --name rec1
+1665505690332:add-point 2,6 -0-name rec1
+1665505703681:add-point 2,6 --name rec1
+1665505716206:add-point 6,2 --name rec1
+1665505726059:add-point 6,6 --name rec1
+1665505736621:add-point 3,3 --name rec2
+1665505750575:add-point 3,5 --name rec2
+1665505761685:add-point 5,3 --name rec2
+1665505773926:add-point 5,5 --name rec2
+1665505922146:name-first-rectangle rec1
+1665505929764:name-second-rectangle rec2
+1665505942634:add-point 2,2 --name rec1
+1665505953118:add-point 2,6 --name rec1
+1665505965254:add-point 6,2 --name rec1
+1665505983752:add-point 6,6 --name rec1
+1665505996604:add-point 3,3 --name rec2
+1665506007434:add-point 3,5 --name rec2
+1665506017799:add-point 5,3 --name rec2
+1665506027790:add-point 5,5 --name rec2
+1665506185713:name-first-rectangle rec1
+1665506193946:name-second-rectangle rec2
+1665506210309:add-point 2,2 --name rec1
+1665506224621:add-point 2,6 --name rec1
+1665506235209:add-point 6,2 --name rec1
+1665506247125:add-point 6,6 --name rec1
+1665506259346:add-point 3,3 --name rec2
+1665506268915:add-point 3,5 --name rec2
+1665506277919:add-point 5,3 --name rec2
+1665506287021:add-point 5,5 --name rec2
+1665506617284:add-point 1,1 --name rec3
+1665507029922:name-first-rectangle rec1
+1665507037960:name-second-rectangle rec2
+1665507049209:add-point 2,2 --name rec1
+1665507058673:add-point 2,6 --name rec1
+1665507067615:add-point 6,2 --name rec1
+1665507077933:add-point 6,6 --name rec1
+1665507085658:add-point 3,3 --name rec1
+1665507117207:name-first-rectangle rec1
+1665507123805:name-second-rectangle rec2
+1665507133779:add-point 2,2 --name rec1
+1665507143891:add-point 2,6 --name rec1
+1665507153296:add-point 6,2 --name rec1
+1665507161783:add-point 6,6 --name rec1
+1665507171130:add-point 3,3 --name rec2
+1665507180506:add-point 3,5 --name rec2
+1665507190166:add-point 5,3 --name rec2
+1665507199239:add-point 5,5 --name rec2
+1665509455501:add-point 1,1 --name rect4
+1665509535843:name-first-rectangle rec1
+1665509545608:name-second-rectangle rec2
+1665509555611:add-point 2,2 --name rec1
+1665509572290:add-point 2,6 --name rec1
+1665509582101:add-point 6,2 --name rec1
+1665509592016:add-point 6.6 --name rec1
+1665509602141:add-point 6,6 --name rec1
+1665509612598:add-point 3,3 --name rec1
+1665509642765:name-first-rectangle rec1
+1665509651974:name-second-rectangle rec2
+1665509681929:add-point 2,2 --name rec1
+1665509691573:add-point 2,6 --name rec1
+1665509700542:add-point 6,2 --name rec1
+1665509708508:add-point 6,6 --name rec1
+1665509720026:add-point 3,3 --name rec2
+1665509737175:add-point 3,5 --name rec2
+1665509749668:add-point 5,3 --name rec2
+1665509757887:add-point 5,5 --name rec2
+1665509975106:add-point 0,0 --name rec3
+1665510100982:name-first-rectangle rec1
+1665510110373:name-second-rectangle rec2
+1665510590918:name-first-rectangle rec1
+1665510600172:name-second-rectangle rec2
+1665510615592:add-point 2,2 --name rec1
+1665510626183:add-point 2,6 --name rec1
+1665510635676:add-point 6,2 --name rec1
+1665510643701:add-point 6,6 --name rec1
+1665510655147:add-point 3,3 --name rec2
+1665510665677:add-point 3,5 --name rec2
+1665510675997:add-point 5,3 --name rec2
+1665510683092:addpoint 5,5 --name rec2
+1665510693338:add-point 5,5 --name rec2
+1665511068781:name-first-rectangle rec1
+1665511075827:name-second-rectangle rec2
+1665511098946:add-point 2,2 --name rec1
+1665511109952:add-point 2,6 --name rec1
+1665511120364:add-point 6,2 --name rec1
+1665511127652:add-point 6,6 --name rec1
+1665511145969:add-point 3,3 --name rec2
+1665511155449:add-point 3,5 --name rec2
+1665511165153:add-point 5,3 --name rec2
+1665511181757:add-point 5,5 --name rec2
+1665511366365:name-first-rectangle rec1
+1665511375410:name-second-rectangle rec2
+1665511400805:add-point 2,2 --name rec1
+1665511409760:add-point 2,6 --name rec1
+1665511418058:add-point 6,2 --name rec1
+1665511427208:add-point 6,6 --name rec1
+1665511437374:add-point 3,3 --name rec2
+1665511445774:add-point 3,5 --name rec2
+1665511454489:add-point 5,3 --name rec2
+1665511462949:add-point 5,5 --name rec2
+1665511928107:name-first-rectangle rec1
+1665511935921:name-second-rectangle rec2
+1665511950277:add-point 2,2 --name rec1
+1665511958766:addpoint 2,6 --name rec1
+1665511969746:add-point 2,6 --name rec1
+1665511980128:add-point 6,2 --name rec1
+1665511988768:add-point 6,6 --name rec1
+1665511998021:add-point 3,3 --name rec2
+1665512008463:add-point 3,5 --name rec2
+1665512017298:add-point 5,3 --name rec2
+1665512024556:add-point 5,5 --name rec2
+1665512482430:name-first-rectangle rec1
+1665512490449:name-second-rectangle rec2
+1665512503218:add-point 4,4 --name rec1
+1665512517192:add-point 7,4 --name rec1
+1665512526360:add-point 4,6 --name rec1
+1665512536603:add-point 7,6 --name rec1
+1665512558838:add-point 4,6 --name rec2
+1665512572983:add-point 7,6 --name rec2
+1665512582386:add-point 4,8 --name rec2
+1665512591310:add-point 7,8 --name rec2
